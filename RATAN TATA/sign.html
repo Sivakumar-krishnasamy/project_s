@@ -1,0 +1,310 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>Biography</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body,html{
+width:100%;
+overflow-x: hidden;
+        }
+
+        div{
+            border: 20px solid black ;height: 50px;
+            background-color:black;
+        }
+       h1{
+            color: white;
+            width: 200px;
+            background-color: black;
+            float: left;
+        }
+       ul{
+            background-color: black;
+            list-style: none;
+            width: 30%;
+            float: right;
+            /* border:2px solid red; */
+        }
+        li{
+          
+            display: inline-block;
+            padding:6px;
+            margin: 0 5px;       
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size:large;
+
+        }
+        a:hover{
+            color: rgba(184, 14, 14, 0.726);
+        }
+      
+        #fname{
+            text-align: center;
+            padding: 6px;
+            margin: 12px;
+        }
+        #lname{
+            text-align: center;
+            padding: 6px;
+            margin: 12px;
+        }
+        #mail{
+            text-align: center;
+            padding: 6px;
+            margin: 12px;
+        }
+#password{
+    text-align: center;
+            padding: 6px;
+            margin: 12px;
+}
+section{
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    max-width: 90%;
+}
+section>table {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            background-color: rgba(184, 14, 14, 0.726);
+           text-align: center;
+            padding: 6px;
+            margin: 12px;
+            border-radius: 5px;
+            box-shadow: 0 8px 16px black;
+        }
+        section>p {
+            text-align: center;
+            margin-top: 100px;
+        }
+        table{
+            text-align: center;
+        }
+        #sign{
+           width: 150px;
+           height: 40px;
+           font-size: 14;
+        }
+        .signup{
+            color: black;
+
+text-align: center;
+margin-top: 20px;
+        }
+
+        .foot{
+            border: 20px solid black;width:100%;
+            height: 80vh;
+            text-align: center;
+            padding: 10px;
+        }
+        .foot1{
+            color: white;
+            width: 20%;
+            border: 3px solid black ;
+            float: left;display: inline;
+            text-align: left;
+            line-height: 2;
+            word-spacing: 5px;
+            padding: 12px;
+            height: 60vh;
+        }
+        .short{
+            width: 100px;
+            height: 80%;
+        }
+       
+        .fa-solid{
+            margin-right: 10px;
+        }
+        @media only screen and (max-width:800px) {
+            div>h1,div>ul{
+                text-align: center;
+                width: 100%;
+        
+            }
+            div>ul{
+                background-color:rgba(184, 14, 14, 0.726);}
+                li:hover{
+                    background-color: black;
+                }
+                div>.foot{
+                    height: 240vh;
+                }
+                div>.foot1{
+                    width: 19%;
+                }
+                div>h3,div>h5{
+                    text-align: left;
+                }
+                
+        }
+        @media only screen and (max-width:600px) { 
+            div>h1,div>ul{
+                text-align: center;
+                width: 100%;
+            }
+            div>ul{
+                background-color: rgba(184, 14, 14, 0.726);}
+                li:hover{
+                    background-color: white;
+                }
+                .foot{
+                  width: 100%;
+                  height: 110vh;
+                  margin: 0;
+                  padding: 0;
+                }
+                .foot>.foot1{
+                    font-size: 11;
+                    width:40% ;
+                    border:2px solid black;
+                    height: 45vh;
+                }
+                .foot1>.short{
+                height: 30vh;
+               }
+               .secfoot{
+                width: 100%;
+                height:35px;margin: 0;padding:0;
+                border-top: 2px solid black;
+               }
+               .secfoot>h3{
+                width: 100%;
+                margin: 0;padding: 0;line-height: 35px;
+               }
+
+                div>h3,div>h5{
+                    text-align: left;
+                   
+                }
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+        <h1>RATAN TATA</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul></div> <br><br><br><br><br>
+
+    <center>
+        <h2>Ratan Tata</h2><br>
+        <hr style="border: 2px solid  rgba(184, 14, 14, 0.726); width: 30%"></center>
+        <br><br>
+        <section>
+            <table>
+            <form action="">
+                <tr>
+               <td colspan="2"> <h3 class="signup"><b>SIGN UP</b></h3></td>
+            </tr>
+                
+
+    <tr>
+               <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" required></td>
+            </tr>
+                
+<tr>
+               <td> <label for="sname">Second Name</label></td>
+               <td> <input type="text" id="sname" required></td>
+            </tr>
+                
+<tr>
+               <td> <label for="mail">Email</label></td>
+                <td><input type="email" id="mail" required></td>
+            </tr>
+                                                 
+<tr>
+               <td> <label for="password">Password</label></td>
+               <td> <input type="password" id="password" required></td>
+            </tr>
+                
+<tr>
+                <td><label for="password"> Confirm Password</label></td>
+                <td><input type="password" id="password" required></td>
+            </tr>
+                
+<tr>
+               <td colspan="2"> <input type="submit"  id="sign" value="Sign Up"></td>
+            </tr>
+                <br><br><br><br><br>
+            <tr>
+               <td colspan="2"> <p>Already have a account <a href="contact.html">Login</a></p></td>
+            </tr>
+            </form>
+        </table>
+        </section>
+<br><br><br><br><br><br><br><br><br>
+
+        <div class="foot"> 
+            <div class="foot1 f1">
+                <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Site Navigation</u></h3><br>
+                <h5> <a href="index.html">Home</a></h5>
+                <h5> <a href="gallery.html">Gallery</a></h5>
+                <h5> <a href="awards.html">Awards</a></h5>
+                <h5> <a href="service.html">Service</a></h5>
+                <h5> <a href="contact.html">Contact</a></h5>
+            </div>
+            <div class="foot1">
+                <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Business</u></h3><br>
+                <marquee class="short" behavior="scroll" scrollamount="4" direction="up"><h5>Technology</h5>
+                <h5>Tata consultancy</h5>
+                <h5>Tata Motars</h5>
+                <h5>Tata power</h5>
+                <h5>Titan</h5>
+                <h5>Air India</h5>
+                <h5>voltas</h5>
+                <h5>Trent</h5>
+                <h5>Chroma</h5>
+                <h5>Big Basket</h5>
+                <h5>Zudio</h5>
+                <h5>Tata Consumer Products</h5>
+                <h5>Steel</h5>
+                <h5>Automative</h5>
+                <h5>Consumer & Retail</h5>
+                <h5> Infrastructure</h5>
+                <h5>Financial service</h5>
+                <h5> Aerospace & Defence</h5>
+                <h5> Tourism & Travel</h5>
+                <h5>Telecom & Media</h5>
+                <h5> Trading & investment</h5>
+            </marquee>
+            </div>
+            <div class="foot1">
+                <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Updated News</u></h3><br>
+                <h5>Ratan Tata died at a Mumbai hospital late on Wednesday (October 9, 2024). The chairman emeritus of the Tata group was 86. Tata was admitted to the Breach Candy Hospital in south Mumbai on Monday (October 7, 2024) owing to age-related issues, and to control his blood pressure.</h5>
+                
+            </div>
+            <div class="foot1">
+                <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Contact us</u></h3><br>
+                <h5><i class="fa-solid fa-mobile-screen"></i>6388428719</h5>
+                
+                <h5><i class="fa-solid fa-phone-flip"></i>0421-455-781</h5>
+                <h5><i class="fa-solid fa-envelope"></i>Mail</h5>
+                <h5><i class="fa-solid fa-location-dot"></i>A Block,<br>Dr Annie Besant Road,<br>Shiv Sagar Estate,<br>Worli, Mumbai,<br>Maharastra-40018</h5>
+               
+            </div>
+        </div>
+        <div><br><br>
+            <h3 style="text-align: center; color: white;">&#169; All Rights Reserved</h3></div>
+        
+        </body>
+        </html>

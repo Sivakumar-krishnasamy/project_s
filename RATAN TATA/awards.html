@@ -1,0 +1,360 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Awards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body,html{
+width:100%;
+overflow-x: hidden;
+        }
+
+        div {
+            border: 20px solid black;
+            height: 50px;
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            width: 200px;
+            background-color: black;
+            float: left;
+        }
+
+        ul {
+            background-color: black;
+            list-style: none;
+            width: 30%;
+            float: right;
+            /* border:2px solid red;  */
+        }
+
+        li {
+
+            display: inline-block;
+            padding: 6px;
+            margin: 0 5px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: large;
+
+        }
+
+        a:hover {
+            color: rgba(184, 14, 14, 0.726);
+
+        }
+        .sec1{
+        width: 80%;
+        border: 2px solid white;
+        height: 60vh;
+        margin: 20px auto;
+
+       }
+        .sec1>div{
+            display: inline-block
+        }
+        .sec1>.img1{
+            width: 40%; height: 80%;
+            background-image: url('./badma_bushan.jpg');
+            background-size: cover;
+            border: 2px solid white;margin: 25px;
+             
+        }
+        .sec1>.para1{
+            height: 80%;
+            width: 40%;float:right;
+            border: 2px solid white;
+            background-color: white;
+           text-align: justify;
+            margin: 10px;
+            padding-top: 60px;
+        }
+        .sec2 {
+            width: 80%;
+            border: 2px solid white;
+            height: 60vh;
+            margin: 20px auto;
+        }
+.sec2>div{
+    display:inline-block;
+}
+        .sec2>.para2 {
+            height: 80%;
+            width: 40%;float:left;
+            border: 2px solid white;
+            background-color: white;
+           text-align: justify;
+            margin: 10px;
+            padding-top: 60px;
+            
+        }
+
+        .sec2>.img2 {
+            width: 40%; height: 80%;
+            background-image: url('./Padma_Vibhushan.jpg');
+            background-size: cover;
+            border: 2px solid white;margin: 25px;
+           margin: 10px 0px 0px 80px;
+        }
+        .foot {
+            border: 20px solid black;
+            width: 100%;
+            height: 80vh;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .foot1 {
+            color: white;
+            width: 20%;
+            border: 3px solid black;
+            float: left;
+            display: inline;
+            line-height: 2;
+            text-align: left;
+            word-spacing: 5px;
+            padding: 12px;
+            height: 60vh;
+        }
+        .secfoot{
+            color: white;
+            text-align: center;
+            width: 100%;
+            
+            height: 80px;
+            padding-top: 25pxpx;
+        }
+             
+        .short{
+            width: 100px;
+            height: 80%;
+        }   
+
+        .fa-solid {
+            margin-right: 10px;
+        }
+        @media only screen and (max-width:800px) {
+            div>h1,div>ul{
+                text-align: center;
+                width: 100%;
+        
+            }
+            div>ul{
+                background-color:rgba(184, 14, 14, 0.726);}
+                li:hover{
+                    background-color: black;
+                }
+                div>p{
+                    font-size: 13;
+                }
+                
+                section>.sec1,section>.sec2{
+                    width: 100%;
+        border: 2px solid white;
+        height: 60vh;
+        margin: 20px auto;
+                }
+              
+                div>.foot{
+                    height: 240vh;
+                }
+                div>.foot1{
+                    width: 19%;
+                }
+                div>h3,div>h5{
+                    text-align: left;
+                }
+                
+        }
+        @media only screen and (max-width:600px) { 
+            div>h1,div>ul{
+                text-align: center;
+                width: 100%;
+            }
+            div>ul{
+                background-color: rgba(184, 14, 14, 0.726);}
+                li:hover{
+                    background-color: white;
+                }
+                div>p{
+                    font-size: 9;
+                }
+                .sec1,.sec2 {
+                    width: 100%;
+        /* border: 2px solid rgb(212, 8, 8); */
+        /* text-align: center; */
+        height:auto;
+        margin: 10px auto;
+                }
+                .sec1>.img1,.sec1>.para1,.sec2>.img2,.sec2>.para2{
+                    width:100%;
+                }
+                .sec2>.para2,.sec1>.para1{
+                    width: 90%;
+                    height:200px;margin: 0 20px;padding:12px;
+                }
+                .sec1>.img1,.sec2>.img2{
+background-position: center;  background-size: cover;  
+background-repeat: no-repeat;margin:0;  height:250px;          }
+               
+                .foot{
+                    width:100%;
+                    /* border:2px solid red; */
+                    height: 110vh;margin: 0;padding:0;
+                }
+                .foot>.foot1{
+                    font-size: 11;
+                    width:40% ;
+                    border:2px solid black;
+                    height: 45vh;
+                }
+               .foot1>.short{
+                height: 30vh;
+               }
+               .secfoot{
+                width: 100%;
+                height:35px;margin: 0;padding:0;
+                border-top: 2px solid black;
+               }
+               .secfoot>h3{
+                width: 100%;
+                margin: 0;padding: 0;line-height: 35px;
+               }
+                div>h3,div>h5{
+                    text-align: left;
+                   
+                }
+        }
+       
+       
+
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>RATAN TATA</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div> <br><br><br><br><br>
+
+    <center>
+        <h2>Ratan Tata</h2><br>
+        <hr style="border: 2px solid  rgba(184, 14, 14, 0.726); width: 30%">
+        <br><br>
+        <h3>Ratan Tata's Awards</h3>
+    </center><br><br>
+    <section class="sec1">
+        <div class="img1">
+        
+    </div>
+    <div class="para1">
+        <h4 style="text-align: center;">Padmaa Bushan</h4><br>
+        <p><b>Ratan Tata was awarded the Padma Bhushan in 2000 for his contributions to India, including his leadership
+                of the Tata Group, his philanthropic work, and his ethical values. Tata was regarded as a visionary
+                leader, and his legacy is one of compassion and innovation that transcends the confines of the corporate
+                realm to impact millions of ordinary lives. Followed by the Padma Vibhushan, the country's second
+                highest civilian honour, in 2008.</b> </p>
+    </div>
+    </section>
+
+    <section class="sec2">
+     <div class="para2"> 
+    <h4 style="text-align: center;">Padma Vibushan</h4><br>      
+    <p>  <b> The Padma Vibhushan ("Lotus Decoration") is the second-highest civilian award of the
+                Republic of India, after the Bharat Ratna. Instituted on 2 January 1954, the award is given for
+                "exceptional and distinguished service". All persons without distinction of race, occupation, position
+                or sex are eligible for these awards. However, government servants including those working with public
+                sector undertakings, except doctors and scientists, are not eligible for these Awards.</b>
+        </p>
+    </div>
+
+        <div class="img2">
+          
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="foot">
+        <div class="foot1 f1">
+            <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Site Navigation</u></h3><br>
+            <h5> <a href="index.html">Home</a></h5>
+            <h5> <a href="gallery.html">Gallery</a></h5>
+            <h5> <a href="awards.html">Awards</a></h5>
+            <h5> <a href="service.html">Service</a></h5>
+            <h5> <a href="contact.html">Contact</a></h5>
+        </div>
+        <div class="foot1">
+            <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Business</u></h3><br>
+            <marquee class="short" behavior="scroll" scrollamount="4" direction="up">
+                <h5>Technology</h5>
+                <h5>Tata consultancy</h5>
+                <h5>Tata Motars</h5>
+                <h5>Tata power</h5>
+                <h5>Titan</h5>
+                <h5>Air India</h5>
+                <h5>voltas</h5>
+                <h5>Trent</h5>
+                <h5>Chroma</h5>
+                <h5>Big Basket</h5>
+                <h5>Zudio</h5>
+                <h5>Tata Consumer Products</h5>
+                <h5>Steel</h5>
+                <h5>Automative</h5>
+                <h5>Consumer & Retail</h5>
+                <h5> Infrastructure</h5>
+                <h5>Financial service</h5>
+                <h5> Aerospace & Defence</h5>
+                <h5> Tourism & Travel</h5>
+                <h5>Telecom & Media</h5>
+                <h5> Trading & investment</h5>
+            </marquee>
+        </div>
+        <div class="foot1">
+            <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Updated News</u></h3><br>
+            <h5>Ratan Tata died at a Mumbai hospital late on Wednesday (October 9, 2024). The chairman emeritus of the
+                Tata group was 86. Tata was admitted to the Breach Candy Hospital in south Mumbai on Monday (October 7,
+                2024) owing to age-related issues, and to control his blood pressure.</h5>
+
+        </div>
+        <div class="foot1">
+            <h3><u style="text-decoration: underline 2px solid  rgba(184, 14, 14, 0.726);">Contact us</u></h3><br>
+            <h5><i class="fa-solid fa-mobile-screen"></i>6388428719</h5>
+
+            <h5><i class="fa-solid fa-phone-flip"></i>0421-455-781</h5>
+            <h5><i class="fa-solid fa-envelope"></i>Mail</h5>
+            <h5><i class="fa-solid fa-location-dot"></i>A Block,<br>Dr Annie Besant Road,<br>Shiv Sagar
+                Estate,<br>Worli, Mumbai,<br>Maharastra-40018</h5>
+
+        </div>
+    </div>
+    <div class="secfoot">
+        <h3 style="text-align: center; color: white;">&#169; All Rights Reserved</h3>
+    </div>
+    
+</body>
+
+</html>
